@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, Cambria, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-bakery-cream: #FAF7F2;
+  --color-bakery-surface: #FFFFFF;
+  --color-bakery-dark: #2C1810;
+  --color-bakery-cocoa: #44281D;
+  --color-bakery-warm: #704838;
+  --color-bakery-gold: #C27D38;
+  --color-bakery-honey: #D9822B;
+  --color-bakery-border: #EADBCE;
+  --color-bakery-border-light: #F2EBE1;
+}
+
+@layer base {
+  body {
+    background-color: #FAF7F2;
+    color: #2C1810;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+    letter-spacing: -0.015em;
+  }
+}
