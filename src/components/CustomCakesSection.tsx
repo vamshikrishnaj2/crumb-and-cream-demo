@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Cake, Palette, ArrowRight, MessageCircle } from 'lucide-react';
+import customCakeImage from '../assets/images/product_custom_cake_1790709126155.jpg';
 import { DEMO_CONFIG } from '../data/bakeryData';
 
 interface CustomCakesSectionProps {
@@ -36,7 +37,7 @@ export const CustomCakesSection: React.FC<CustomCakesSectionProps> = ({ onOpenCu
             {/* Visual Column */}
             <div className="lg:col-span-5 relative min-h-[320px] lg:min-h-[500px]">
               <img
-                src="/src/assets/images/product_custom_cake_1790709126155.jpg"
+                src={customCakeImage}
                 alt="Two-tiered custom celebration cake with botanical flowers and textured buttercream"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center"
