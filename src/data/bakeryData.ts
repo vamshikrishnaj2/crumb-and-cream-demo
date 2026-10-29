@@ -1,6 +1,13 @@
+
 import { Product, MenuItem, GalleryItem } from '../types/bakery';
 
-export const HERO_IMAGE = '/src/assets/images/hero_bakery_pastries_1790709100790.jpg';
+import heroImage from '../assets/images/hero_bakery_pastries_1790709100790.jpg';
+import celebrationCakeImage from '../assets/images/product_celebration_cake_1790709113856.jpg';
+import customCakeImage from '../assets/images/product_custom_cake_1790709126155.jpg';
+import dessertBoxesImage from '../assets/images/product_dessert_boxes_1790709148931.jpg';
+import freshPastriesImage from '../assets/images/product_fresh_pastries_1790709138580.jpg';
+
+export const HERO_IMAGE = heroImage;
 
 export const SIGNATURE_PRODUCTS: Product[] = [
   {
@@ -14,7 +21,7 @@ export const SIGNATURE_PRODUCTS: Product[] = [
     popularFlavors: ['Madagascar Vanilla Bean & Raspberry', 'Belgian Chocolate Truffle', 'Pistachio Rosewater & White Peach'],
     leadTime: '24 hours notice',
     dietary: ['Egg & Eggless available', '100% Real Butter'],
-    image: '/src/assets/images/product_celebration_cake_1790709113856.jpg',
+    image: celebrationCakeImage,
   },
   {
     id: 'custom-cakes',
@@ -27,7 +34,7 @@ export const SIGNATURE_PRODUCTS: Product[] = [
     popularFlavors: ['Earl Grey Lavender & Honey', 'Dark Chocolate Ganache & Salted Caramel', 'Lemon Curd & Wild Elderflower'],
     leadTime: '3–5 days notice',
     dietary: ['Custom dietary adaptations on request'],
-    image: '/src/assets/images/product_custom_cake_1790709126155.jpg',
+    image: customCakeImage,
   },
   {
     id: 'fresh-pastries',
@@ -40,7 +47,7 @@ export const SIGNATURE_PRODUCTS: Product[] = [
     popularFlavors: ['Classic Golden Butter Croissant', 'Pain au Chocolat (Valrhona 66%)', 'Swedish Cardamom Sugar Bun'],
     leadTime: 'Available daily from 8:30 AM',
     dietary: ['Vegetarian', 'Slow Cold-Fermented'],
-    image: '/src/assets/images/product_fresh_pastries_1790709138580.jpg',
+    image: freshPastriesImage,
   },
   {
     id: 'dessert-boxes',
@@ -53,7 +60,7 @@ export const SIGNATURE_PRODUCTS: Product[] = [
     popularFlavors: ['Salted Butter Caramel Macaron', 'Dark Cocoa Ganache Tartlet', 'Meyer Lemon Choux au Craquelin'],
     leadTime: 'Same-day pickup / Pre-order',
     dietary: ['Gift packaging included'],
-    image: '/src/assets/images/product_dessert_boxes_1790709148931.jpg',
+    image: dessertBoxesImage,
   },
 ];
 
@@ -62,42 +69,42 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g1',
     title: 'Ivory Raspberry Celebration Cake',
     category: 'Celebration Cakes',
-    image: '/src/assets/images/product_celebration_cake_1790709113856.jpg',
+    image: celebrationCakeImage,
     caption: 'Multi-layer vanilla sponge topped with fresh raspberries, figs, and gold leaf on hand-thrown ceramic.',
   },
   {
     id: 'g2',
     title: 'Two-Tier Botanical Custom Cake',
     category: 'Custom Tiered',
-    image: '/src/assets/images/product_custom_cake_1790709126155.jpg',
+    image: customCakeImage,
     caption: 'Textured ivory ganache finish with organic pressed edible florals for an intimate celebration.',
   },
   {
     id: 'g3',
     title: 'Morning Viennoiserie Spread',
     category: 'Pastries',
-    image: '/src/assets/images/product_fresh_pastries_1790709138580.jpg',
+    image: freshPastriesImage,
     caption: 'Golden flaky French butter croissants and morning buns fresh from the morning bake.',
   },
   {
     id: 'g4',
     title: 'The Patisserie Tasting Hamper',
     category: 'Dessert Boxes',
-    image: '/src/assets/images/product_dessert_boxes_1790709148931.jpg',
+    image: dessertBoxesImage,
     caption: 'Curated presentation box featuring Parisian macarons, choux au craquelin, and mini chocolate tartlets.',
   },
   {
     id: 'g5',
     title: 'Artisan Bakery Display Counter',
     category: 'Pastries',
-    image: '/src/assets/images/hero_bakery_pastries_1790709100790.jpg',
+    image: heroImage,
     caption: 'Warm bakery counter at opening hour with warm loaves, cakes, and morning lamination.',
   },
   {
     id: 'g6',
     title: 'Bespoke Floral Milestone Cake',
     category: 'Custom Tiered',
-    image: '/src/assets/images/product_custom_cake_1790709126155.jpg',
+    image: customCakeImage,
     caption: 'Tailored anniversary design with subtle stone-texture buttercream and edible gold flake.',
   },
 ];
