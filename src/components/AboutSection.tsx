@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImage from '../assets/images/hero_bakery_pastries_1790709100790.jpg';
 import { Sparkles, Info } from 'lucide-react';
 
 export const AboutSection: React.FC = () => {
@@ -44,7 +45,7 @@ export const AboutSection: React.FC = () => {
             <div className="relative rounded-3xl overflow-hidden border border-[#EADBCE] bg-[#FAF7F2] shadow-lg aspect-4/3 sm:aspect-5/4">
               <img
                 src="/src/assets/images/hero_bakery_pastries_1790709100790.jpg"
-                alt="Crumb and cream bakery studio ambiance"
+                src={heroImage}
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
                 loading="lazy"
